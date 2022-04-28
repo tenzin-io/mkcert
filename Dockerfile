@@ -1,7 +1,7 @@
-FROM debian:bullseye
+FROM arm64v8/debian:bullseye
 
 ENV MKCERT_VERSION=v1.4.3
-ENV MKCERT_PLATFORM=amd64
+ENV MKCERT_PLATFORM=arm64
 ENV CERT_HOSTNAME=localhost
 ENV CERT_DOMAIN=local.arpa
 
